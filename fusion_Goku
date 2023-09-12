@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace fusion_Goku
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("quelle est votre nom?");
+            string nom = Console.ReadLine();
+            Console.Write("quelle est votre prenom?");
+            string prenom = Console.ReadLine();
+            Console.WriteLine("quelle est votre age?");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("bonjour" + " " + prenom + " " + nom + "vous avez " + age + "ans");
+            Console.ReadKey();
+        }
+    }
+}
